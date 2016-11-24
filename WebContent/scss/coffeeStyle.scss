@@ -1,0 +1,179 @@
+body{
+    font-family: myfont;
+    background-image: url(../images/roasting-background.jpg);
+    width: 100%;
+    color: white;
+}
+@font-face{
+    font-family: myfont;
+    src: url('../font/Demo_ConeriaScript.ttf');
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+.menu{
+    text-align: center;
+    .btn-group{
+        border: 2px solid #ffe2ae;
+        padding: 0.5em;
+        .btn-menu{
+            .btn-drink{
+                background-color: #63410e;
+                border-bottom: 2px solid white;
+                border-top: 2px solid white;
+                padding: 0.5em;
+                margin: 0.3em;
+                a{
+                    margin: 0.3em;
+                    font-weight: bold;
+                    color: white;
+                    &:hover{
+                        text-decoration: none;
+                        color: darkgoldenrod;
+                    }
+                }
+                &:hover, &:focus{
+                    background-color: #271406;
+                }
+            }
+        }
+        .drink-group{
+            background-color: #e8be8c;
+            padding: 0.5em;
+            border-radius: 10px;
+            div{
+                padding: 2em;
+                .img-drink{
+                    border-radius: 100px;
+                    padding:  2em 1.5em;
+                    margin-top: 10px;  
+                    background-color: #271406;
+                    position: relative;
+                    img{
+                        width: 100%;
+                    }
+                    &:hover, &:focus{
+                        background-color: #a57234;
+                        box-shadow: 3px 3px 3px #763d12;
+                    }
+                }
+                .name-price{
+                    padding: 0.2em;
+                    color: white;
+//                    font-weight: bold;
+                    p{
+                        padding: 0;
+                        margin: 2px;
+                        &:last-of-type{
+                            padding: 0.3em 1.3em;
+                            background-color: #f44336;
+                            border-radius: 30px;
+                            position: absolute;
+                            top: -1em;
+                            left: 0.8em;
+                        }
+                        &:first-of-type{
+                            position: absolute;
+                            top: -7.6em;
+                            left: 1.5em;
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+    }
+}
+
+#show-quanity{
+    div{
+        margin-top: 10px;
+        background-color: #e8be8c;
+        padding: 1em;
+        border-radius: 10px;
+        text-align: center;
+        color: black;
+        .infor-drink{
+            img{
+                width: 100%;
+            }
+            p{
+                padding: 0.2em 0.5em;
+                &:last-of-type{
+                    padding: 0.3em 1.3em;
+                    background-color: #f44336;
+                    border-radius: 30px;
+                    color: white;
+
+                }
+            }
+        }
+        .total{
+            p{
+                padding: 0.3em;
+            }
+            a{
+                margin-top: 1em;
+                color: white;
+                padding: 1em 1.5em;
+                background-color: brown;
+                border-radius: 30px;
+                font-weight: bold;
+                &:hover{
+                    background-color: chocolate;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+    
+    .invoice{
+        padding-top: 2em;
+        text-align: center;
+        div{
+            table{
+                margin-top: 20px;
+                border: 1px solid white;
+                thead,tbody{
+                    tr{
+                        border-bottom: 1px solid white;
+                        th,td{
+                            padding: 0.5em 1em;
+                        }
+                    }
+                }
+                thead{
+                    background-color: #52280f;
+                }
+            }
+            .btn-invoice{
+                margin-top: 3em;
+                .btn-order{
+                    padding: 0.7em 1.5em;
+                    background-color: #FFEB3B;
+                    border-radius: 3px;
+                    color: black;
+                    font-weight: bold;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: #ca9707;
+                        color: white;
+                    }
+                }
+                .btn-payment{
+                    padding: 0.7em 1.5em;
+                    background-color: #ff3a0d;
+                    border-radius: 3px;
+                    color: white;
+                    font-weight: bold;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: #ca3e1e;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

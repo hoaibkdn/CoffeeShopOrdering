@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#"
+     xml:base="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:coffeeshop="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HowToUse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HowToUse">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Ingredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Ingredient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Coffee"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Savour -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Savour">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Weather -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Weather">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Avatar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Avatar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShopID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShopID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Detail -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Detail"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#DrinkID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#DrinkID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Coffee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Coffee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Drink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Drink"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#IceCream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#IceCream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Love -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Love">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Meeting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Meeting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Drink"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Relax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Relax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Study -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Study">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#CoffeeShop"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Bitter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Bitter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Coffee"/>
+        <Savour rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HappyHeart"/>
+        <Savour rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HighLand"/>
+        <Savour rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#LePetit"/>
+        <Savour rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Moly"/>
+        <Savour rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Pixel"/>
+        <DrinkID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</DrinkID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black Coffee</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capuchino</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk Coffee</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Chocola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Chocola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#IceCream"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Hot"/>
+        <Ingredient rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HighLand"/>
+        <Ingredient rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Leevin"/>
+        <Ingredient rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Pixel"/>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chocolate Cream</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Cold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Cold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#IceCream"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HappyHeart"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#LePetit"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Leevin"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Moly"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Pixel"/>
+        <DrinkID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</DrinkID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durian Cream</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HappyHeart -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HappyHeart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Love"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Meeting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HighLand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HighLand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Meeting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Hot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Hot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Others"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Chocola"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HappyHeart"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HighLand"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Leevin"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Moly"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Orange"/>
+        <DrinkID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</DrinkID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cacao</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#LePetit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#LePetit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Relax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Leevin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Leevin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Study"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Moly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Moly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Study"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Orange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Orange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit"/>
+        <HowToUse rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Hot"/>
+        <Ingredient rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HighLand"/>
+        <Ingredient rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Moly"/>
+        <Ingredient rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Pixel"/>
+        <Savour rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HappyHeart"/>
+        <Savour rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HighLand"/>
+        <DrinkID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</DrinkID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange Juice</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Pixel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Pixel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Relax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Sour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Sour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Summer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Summer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit"/>
+        <Weather rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HappyHeart"/>
+        <Weather rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Leevin"/>
+        <DrinkID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</DrinkID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apple Juice</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Sweet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Sweet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Coffee"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Winter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Winter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit"/>
+        <Weather rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#HighLand"/>
+        <Weather rdf:resource="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Pixel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Coffee"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Drink"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Fruit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#IceCream"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Love"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Meeting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Others"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Relax"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hoaitruong/ontologies/2016/9/coffeeshop#Study"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+

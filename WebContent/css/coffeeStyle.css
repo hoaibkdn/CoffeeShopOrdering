@@ -1,0 +1,203 @@
+body {
+	font-family: myfont;
+	background-image: url(../images/roasting-background.jpg);
+	width: 100%;
+	color: white;
+}
+
+@font-face {
+	font-family: myfont;
+	src: url("../font/Coffee At Midnight Demo.ttf");
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1366px) {
+	.menu {
+		text-align: center;
+	}
+	.menu .btn-group {
+		border: 2px solid #ffe2ae;
+		padding: 0.5em;
+	}
+	.menu .btn-group .btn-menu .btn-drink {
+		background-color: #63410e;
+		border-bottom: 2px solid white;
+		border-top: 2px solid white;
+		padding: 0.5em;
+		margin: 0.3em;
+	}
+	.menu .btn-group .btn-menu .btn-drink a {
+		margin: 0.3em;
+		font-weight: bold;
+		color: white;
+	}
+	.menu .btn-group .btn-menu .btn-drink a:hover {
+		text-decoration: none;
+		color: darkgoldenrod;
+	}
+	.menu .btn-group .btn-menu .btn-drink:hover, .menu .btn-group .btn-menu .btn-drink:focus
+		{
+		background-color: #271406;
+	}
+	.menu .btn-group .drink-group {
+		background-color: #e8be8c;
+		padding: 0.5em;
+		padding-bottom: 3em;
+	}
+	.menu .btn-group .drink-group div {
+		padding: 2em;
+	}
+	.menu .btn-group .drink-group div .img-drink {
+		padding: 2em 1.5em;
+		margin-top: 10px;
+		background-color: #271406;
+		position: relative;
+		transition: background-color 1.5s ease-out;
+	}
+	.menu .btn-group .drink-group div .img-drink img {
+		width: 100%;
+	}
+	.menu .btn-group .drink-group div .img-drink:hover, .menu .btn-group .drink-group div .img-drink:focus
+		{
+		background-color: #a57234;
+		box-shadow: 3px 3px 3px #763d12;
+	}
+	.menu .btn-group .drink-group div .name-price {
+		padding: 0.2em;
+		color: white;
+	}
+	.menu .btn-group .drink-group div .name-price p {
+		float: left;
+		padding: 0;
+		margin: 10px 15px;
+	}
+	.menu .btn-group .drink-group div .name-price p#price {
+		padding: 0.3em 1.3em;
+		background-color: #f44336;
+		border-radius: 30px;
+		position: absolute;
+		top: -1.8em;
+		left: 2.3em;
+	}
+	.menu .btn-group .drink-group div .name-price p#name {
+		position: absolute;
+		top: -12em;
+		left: 2.5em;
+	}
+	.menu .btn-group .drink-group div .name-price div {
+		position: absolute;
+		top: -1em;
+		left: -2.5em;
+	}
+	.menu .btn-group .drink-group div .name-price div input {
+		width: 50%;
+		float: left;
+	}
+	.menu .btn-group .drink-group div .name-price button {
+		position: absolute;
+		top: 2em;
+		left: 11em;
+	}
+}
+
+#show-quanity div {
+	margin-top: 10px;
+	background-color: #e8be8c;
+	padding: 1em;
+	border-radius: 10px;
+	text-align: center;
+	color: black;
+}
+
+#show-quanity div .infor-drink img {
+	width: 100%;
+}
+
+#show-quanity div .infor-drink p {
+	padding: 0.2em 0.5em;
+}
+
+#show-quanity div .infor-drink p:last-of-type {
+	padding: 0.3em 1.3em;
+	background-color: #f44336;
+	border-radius: 30px;
+	color: white;
+}
+
+#show-quanity div .total p {
+	padding: 0.3em;
+}
+
+#show-quanity div .total a {
+	margin-top: 1em;
+	color: white;
+	padding: 1em 1.5em;
+	background-color: brown;
+	border-radius: 30px;
+	font-weight: bold;
+}
+
+#show-quanity div .total a:hover {
+	background-color: chocolate;
+	text-decoration: none;
+}
+
+.invoice {
+	padding-top: 2em;
+	text-align: center;
+}
+
+.invoice div table {
+	margin-top: 20px;
+	border: 1px solid white;
+}
+
+.invoice div table thead tr, .invoice div table tbody tr {
+	border-bottom: 1px solid white;
+}
+
+.invoice div table thead tr th, .invoice div table thead tr td, .invoice div table tbody tr th,
+	.invoice div table tbody tr td {
+	padding: 0.5em 1em;
+}
+
+.invoice div table thead {
+	background-color: #52280f;
+}
+
+.invoice div .btn-invoice {
+	margin-top: 3em;
+}
+
+.invoice div .btn-invoice .btn-order {
+	opacity: 1;
+	padding: 0.7em 1.5em;
+	background-color: #FFEB3B;
+	border-radius: 3px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.invoice div .btn-invoice .btn-order:hover {
+	background-color: #ca9707;
+	color: white;
+}
+
+.invoice div .btn-invoice .btn-payment {
+	opacity: 1;
+	padding: 0.7em 1.5em;
+	background-color: #ff3a0d;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.invoice div .btn-invoice .btn-payment:hover {
+	background-color: #ca3e1e;
+	color: black;
+}
+}
+
+/*# sourceMappingURL=coffeeStyle.css.map */
